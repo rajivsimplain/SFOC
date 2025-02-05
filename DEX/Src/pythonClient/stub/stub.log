@@ -1,0 +1,333 @@
+2024-10-24 12:04:00,008 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:04:01,298 - DEBUG - __main__ - Name of the 894 File to be Integrated: C:\Projects\FoodLand\Dex\DexFiles\dextest.dex 
+2024-10-24 12:04:01,309 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:04:01,309 - DEBUG - __main__ - The associated store is : 1 
+2024-10-24 12:04:01,663 - DEBUG - __main__ - Request successful!
+2024-10-24 12:04:01,663 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 12:04:01,663 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 12:08:59,379 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:08:59,379 - DEBUG - __main__ - Name of the 894 File to be Integrated: C:\Projects\FoodLand\Dex\DexFiles\dextest.dex 
+2024-10-24 12:08:59,379 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:08:59,379 - DEBUG - __main__ - The associated store is : 1 
+2024-10-24 12:08:59,680 - DEBUG - __main__ - Request successful!
+2024-10-24 12:08:59,680 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 12:08:59,680 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 12:10:35,969 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:10:35,974 - DEBUG - __main__ - Name of the 894 File to be Integrated: C:\Projects\FoodLand\Dex\DexFiles\dextest.dex 
+2024-10-24 12:10:35,974 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:10:35,974 - DEBUG - __main__ - The associated store is : 1 
+2024-10-24 12:10:36,343 - DEBUG - __main__ - Request successful!
+2024-10-24 12:10:36,343 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 12:10:36,343 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 12:15:21,284 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:15:21,284 - DEBUG - __main__ - Name of the 894 File to be Integrated: C:\Projects\FoodLand\Dex\DexFiles\dextest.dex 
+2024-10-24 12:15:21,293 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:15:21,293 - DEBUG - __main__ - The associated store is : 1 
+2024-10-24 12:15:21,688 - DEBUG - __main__ - Request successful!
+2024-10-24 12:15:21,688 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 12:15:21,688 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 12:15:37,758 - DEBUG - __main__ - Request successful!
+2024-10-24 12:15:38,239 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 12:55:01,884 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:55:14,127 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 12:55:15,189 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 12:55:17,607 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:55:25,587 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 12:55:26,153 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 12:55:27,106 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 12:55:29,351 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 12:56:00,612 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:56:00,612 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 12:56:00,612 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 12:56:00,612 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:56:58,126 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:56:58,126 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 12:56:58,126 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 12:56:58,126 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:57:00,208 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 12:57:00,208 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 12:57:00,208 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 12:57:00,208 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 12:57:05,888 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 12:57:11,444 - DEBUG - __main__ - Request successful!
+2024-10-24 12:57:11,444 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 12:57:11,982 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 12:57:13,248 - DEBUG - __main__ - Request successful!
+2024-10-24 12:57:13,248 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 12:57:15,223 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 12:58:17,038 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:58:17,039 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 12:58:17,039 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 12:58:17,039 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:59:04,398 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 12:59:04,398 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 12:59:04,398 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 12:59:04,405 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 12:59:07,508 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 12:59:07,508 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 12:59:07,508 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 12:59:07,508 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 13:00:11,340 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 13:00:53,673 - DEBUG - __main__ - Request successful!
+2024-10-24 13:00:53,673 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 13:00:53,673 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 13:01:25,783 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 13:03:46,761 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 13:03:56,167 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-24 13:03:59,471 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 13:04:00,964 - DEBUG - __main__ - Request successful!
+2024-10-24 13:04:00,964 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 13:04:01,393 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 13:04:02,799 - DEBUG - __main__ - Request successful!
+2024-10-24 13:04:02,799 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 13:04:03,260 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:05:04,783 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 14:05:04,783 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 14:05:04,783 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 14:05:04,792 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 14:05:04,792 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 14:05:04,792 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 14:05:04,792 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 14:05:04,792 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 14:05:06,623 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-24 14:05:07,091 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 14:05:08,806 - DEBUG - __main__ - Request successful!
+2024-10-24 14:05:08,806 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 14:05:10,324 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 14:05:11,723 - DEBUG - __main__ - Request successful!
+2024-10-24 14:05:11,723 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 14:05:12,399 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:05:15,601 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-24 14:05:17,698 - DEBUG - __main__ - DB Connection : 0 
+2024-10-24 14:05:20,811 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 14:08:41,639 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 14:08:42,652 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-24 14:08:42,652 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 14:08:42,986 - DEBUG - __main__ - Request successful!
+2024-10-24 14:08:42,986 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 14:08:42,986 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 14:08:43,303 - DEBUG - __main__ - Request successful!
+2024-10-24 14:08:43,303 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 14:08:43,303 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:08:43,303 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-24 14:08:43,303 - DEBUG - __main__ - DB Connection : 0 
+2024-10-24 14:08:43,303 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-24 14:09:50,548 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 14:09:50,548 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 14:09:50,553 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 14:09:51,803 - DEBUG - __main__ - Request successful!
+2024-10-24 14:09:51,803 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 14:09:51,803 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 14:09:52,104 - DEBUG - __main__ - Request successful!
+2024-10-24 14:09:52,104 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 14:09:52,104 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:09:52,104 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-24 14:09:52,120 - DEBUG - __main__ - DB Connection : 0 
+2024-10-24 14:09:52,120 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 14:11:24,876 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 14:11:26,064 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-24 14:11:26,065 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 14:11:26,398 - DEBUG - __main__ - Request successful!
+2024-10-24 14:11:26,398 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 14:11:26,398 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 14:11:26,712 - DEBUG - __main__ - Request successful!
+2024-10-24 14:11:26,712 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 14:11:26,712 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:11:26,712 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-24 14:11:26,728 - DEBUG - __main__ - DB Connection : 0 
+2024-10-24 14:11:26,728 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Start of the Stub Program
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Associated store: 1 
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-24 14:17:25,806 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-24 14:17:27,013 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-24 14:17:27,013 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-24 14:17:27,416 - DEBUG - __main__ - Request successful!
+2024-10-24 14:17:27,416 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-24 14:17:27,416 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-24 14:17:27,713 - DEBUG - __main__ - Request successful!
+2024-10-24 14:17:27,713 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-24 14:17:27,713 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-24 14:17:27,713 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-24 14:17:27,713 - DEBUG - __main__ - DB Connection : 0 
+2024-10-24 14:17:27,713 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-24 14:17:43,665 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852060
+2024-10-24 14:17:47,249 - DEBUG - __main__ - DB Handling complete
+2024-10-29 12:31:03,042 - DEBUG - __main__ - Start of the Stub Program
+2024-10-29 12:31:03,042 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-29 12:31:03,042 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-29 12:31:06,537 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-29 12:31:14,184 - DEBUG - __main__ - Associated store: 1 
+2024-10-29 12:31:14,891 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-29 12:31:23,991 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-29 12:31:51,943 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-29 12:32:03,449 - DEBUG - __main__ - Request failed!
+2024-10-29 12:32:38,981 - DEBUG - __main__ - Start of the Stub Program
+2024-10-29 12:32:38,981 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-29 12:32:38,981 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-29 12:32:45,462 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-29 12:32:46,895 - DEBUG - __main__ - Associated store: 1 
+2024-10-29 12:32:47,136 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-29 12:32:47,333 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-29 12:32:47,541 - DEBUG - __main__ - Server URK: https://36101.wiremockapi.cloud/api/FileProcessing/CreateSession 
+2024-10-29 12:32:51,315 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-29 12:32:52,343 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-29 12:32:52,974 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-29 12:33:36,898 - DEBUG - __main__ - Start of the Stub Program
+2024-10-29 12:33:36,898 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-29 12:33:36,898 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-29 12:33:42,540 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-29 12:33:44,805 - DEBUG - __main__ - Associated store: 1 
+2024-10-29 12:33:45,069 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-29 12:33:45,278 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-29 12:33:45,477 - DEBUG - __main__ - Server URK: https://36101.wiremockapi.cloud/api/FileProcessing/ 
+2024-10-29 12:33:46,679 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-29 12:33:48,036 - DEBUG - __main__ - Request successful!
+2024-10-29 12:33:48,036 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-29 12:34:06,917 - DEBUG - __main__ - Start of the Stub Program
+2024-10-29 12:34:06,917 - DEBUG - __main__ - Name of the 894 File to be Integrated: dextest.dex 
+2024-10-29 12:34:06,917 - DEBUG - __main__ - Name of Folder that has the 894 File: C:\Projects\FoodLand\Dex\DexFiles 
+2024-10-29 12:34:08,982 - DEBUG - __main__ - Parsing the Configuration file.
+2024-10-29 12:34:10,753 - DEBUG - __main__ - Associated store: 1 
+2024-10-29 12:34:10,962 - DEBUG - __main__ - Remote Dir: C:\Projects\FoodLand\Dex\DexFiles\remotedir 
+2024-10-29 12:34:11,152 - DEBUG - __main__ - Archive Dir: C:\Projects\FoodLand\Dex\DexFiles\archive 
+2024-10-29 12:34:11,341 - DEBUG - __main__ - Server URK: https://36101.wiremockapi.cloud/api/FileProcessing/ 
+2024-10-29 12:34:13,037 - DEBUG - __main__ - Starting the Movement of the file to archive and Remote Folders: dextest.dex 
+2024-10-29 12:34:13,438 - DEBUG - __main__ - Copied C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\archive\dextest.dex
+2024-10-29 12:34:13,864 - DEBUG - __main__ - Moved C:\Projects\FoodLand\Dex\DexFiles\dextest.dex to C:\Projects\FoodLand\Dex\DexFiles\remotedir\dextest.dex
+2024-10-29 12:34:32,728 - DEBUG - __main__ - Request successful!
+2024-10-29 12:34:32,971 - DEBUG - __main__ - {'sessionId': '7fb12a8df920'}
+2024-10-29 12:34:35,238 - DEBUG - __main__ - Session Id :7fb12a8df920
+2024-10-29 12:34:47,067 - DEBUG - __main__ - Request successful!
+2024-10-29 12:34:48,974 - DEBUG - __main__ - {
+  "fileName": "invoice3.dex",
+  "totalProcessingTime": "00:00:52.9171829",
+  "status": "Failed",
+  "sessionId": "7fb12a8df920",
+  "invoices": [
+    "6004852059",
+    "6004852060"
+  ]
+}
+2024-10-29 12:34:52,116 - DEBUG - __main__ - Invoice List :['6004852059', '6004852060']
+2024-10-29 12:34:52,713 - DEBUG - __main__ - Initiating a DB Connection
+2024-10-29 12:34:57,529 - DEBUG - __main__ - DB Connection : 0 
+2024-10-29 12:34:59,278 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852059
+2024-10-29 12:35:01,507 - DEBUG - __main__ - Writing Invoice Details to  the table for 6004852060
+2024-10-29 12:35:03,383 - DEBUG - __main__ - DB Handling complete

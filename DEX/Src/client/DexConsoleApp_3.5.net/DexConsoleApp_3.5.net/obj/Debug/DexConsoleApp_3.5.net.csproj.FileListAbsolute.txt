@@ -1,0 +1,14 @@
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\DexConsoleApp_3.5.net.exe
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\DexConsoleApp_3.5.net.pdb
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\log4net.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\log4net.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Debug\DexConsoleApp_3.5.net.csproj.AssemblyReference.cache
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Debug\DexConsoleApp_3.5.net.csproj.CoreCompileInputs.cache
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Debug\DexConso.000A088D.Up2Date
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Debug\DexConsoleApp_3.5.net.exe
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Debug\DexConsoleApp_3.5.net.pdb
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\NLog.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\NLog.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Debug\NLog.config

@@ -1,0 +1,426 @@
+[Information] [Program] Hello World!
+[Information] [Program] Logs contain timestamp and log level.
+[Information] [Program] Each log message is fit in a single line.
+[Information] [Program] Name: android-samples
+[Information] [Program] Homepage: https://dotnet.microsoft.com/apps/mobile
+[Information] [Program] GitHub: https://github.com/dotnet/android-samples
+[Information] [Program] Description: A collection of .NET for Android sample projects
+[Information] [Program] Watchers: 2,205
+[Information] [Program] 8/1/2024 4:09:54 AM
+[Information] [Program] Name: cecil
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/cecil
+[Information] [Program] Description: Cecil is a library to inspect, modify and create .NET programs and libraries.
+[Information] [Program] Watchers: 62
+[Information] [Program] 9/10/2024 1:17:56 AM
+[Information] [Program] Name: BenchmarkDotNet
+[Information] [Program] Homepage: https://benchmarkdotnet.org/
+[Information] [Program] GitHub: https://github.com/dotnet/BenchmarkDotNet
+[Information] [Program] Description: Powerful .NET library for benchmarking
+[Information] [Program] Watchers: 10,394
+[Information] [Program] 8/30/2024 10:40:39 AM
+[Information] [Program] Name: reactive
+[Information] [Program] Homepage: http://reactivex.io/
+[Information] [Program] GitHub: https://github.com/dotnet/reactive
+[Information] [Program] Description: The Reactive Extensions for .NET
+[Information] [Program] Watchers: 6,664
+[Information] [Program] 8/28/2024 7:29:02 AM
+[Information] [Program] Name: efcore
+[Information] [Program] Homepage: https://docs.microsoft.com/ef/
+[Information] [Program] GitHub: https://github.com/dotnet/efcore
+[Information] [Program] Description: EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.
+[Information] [Program] Watchers: 13,629
+[Information] [Program] 9/10/2024 10:59:48 AM
+[Information] [Program] Name: java-interop
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/java-interop
+[Information] [Program] Description: Java.Interop provides open-source bindings of Java's Java Native Interface (JNI) for use with .NET managed languages such as C#
+[Information] [Program] Watchers: 195
+[Information] [Program] 9/5/2024 9:13:17 AM
+[Information] [Program] Name: aspnetcore
+[Information] [Program] Homepage: https://asp.net/
+[Information] [Program] GitHub: https://github.com/dotnet/aspnetcore
+[Information] [Program] Description: ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
+[Information] [Program] Watchers: 35,181
+[Information] [Program] 9/10/2024 10:56:05 AM
+[Information] [Program] Name: Open-XML-SDK
+[Information] [Program] Homepage: https://www.nuget.org/packages/DocumentFormat.OpenXml/
+[Information] [Program] GitHub: https://github.com/dotnet/Open-XML-SDK
+[Information] [Program] Description: Open XML SDK by Microsoft
+[Information] [Program] Watchers: 3,987
+[Information] [Program] 9/3/2024 12:46:29 PM
+[Information] [Program] Name: Scaffolding
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/Scaffolding
+[Information] [Program] Description: Code generators to speed up development.
+[Information] [Program] Watchers: 632
+[Information] [Program] 9/10/2024 6:59:07 AM
+[Information] [Program] Name: Docker.DotNet
+[Information] [Program] Homepage: https://www.nuget.org/packages/Docker.DotNet/
+[Information] [Program] GitHub: https://github.com/dotnet/Docker.DotNet
+[Information] [Program] Description: :whale: .NET (C#) Client Library for Docker API
+[Information] [Program] Watchers: 2,231
+[Information] [Program] 8/19/2024 2:03:57 PM
+[Information] [Program] Name: corefx
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/core/
+[Information] [Program] GitHub: https://github.com/dotnet/corefx
+[Information] [Program] Description: This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime 
+[Information] [Program] Watchers: 17,675
+[Information] [Program] 1/20/2023 4:07:42 PM
+[Information] [Program] Name: buildtools
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/buildtools
+[Information] [Program] Description: Build tools that are necessary for building the .NET Core projects
+[Information] [Program] Watchers: 477
+[Information] [Program] 10/11/2021 10:42:09 AM
+[Information] [Program] Name: core
+[Information] [Program] Homepage: https://dot.net/
+[Information] [Program] GitHub: https://github.com/dotnet/core
+[Information] [Program] Description: .NET news, announcements, release notes, and more!
+[Information] [Program] Watchers: 20,848
+[Information] [Program] 9/10/2024 11:19:18 AM
+[Information] [Program] Name: orleans
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/orleans
+[Information] [Program] GitHub: https://github.com/dotnet/orleans
+[Information] [Program] Description: Cloud Native application framework for .NET
+[Information] [Program] Watchers: 10,031
+[Information] [Program] 8/21/2024 9:51:50 AM
+[Information] [Program] Name: AspNetCore.Docs
+[Information] [Program] Homepage: https://docs.microsoft.com/aspnet/core
+[Information] [Program] GitHub: https://github.com/dotnet/AspNetCore.Docs
+[Information] [Program] Description: Documentation for ASP.NET Core
+[Information] [Program] Watchers: 12,535
+[Information] [Program] 9/10/2024 9:25:44 AM
+[Information] [Program] Name: codeformatter
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/codeformatter
+[Information] [Program] Description: Tool that uses Roslyn to automatically rewrite the source to follow our coding styles
+[Information] [Program] Watchers: 1,236
+[Information] [Program] 7/11/2022 10:29:55 AM
+[Information] [Program] Name: apireviews
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/apireviews
+[Information] [Program] Description: This repository contains the notes and API differences that we reviewed.
+[Information] [Program] Watchers: 190
+[Information] [Program] 9/6/2024 3:07:55 PM
+[Information] [Program] Name: fsharp
+[Information] [Program] Homepage: https://dotnet.microsoft.com/languages/fsharp
+[Information] [Program] GitHub: https://github.com/dotnet/fsharp
+[Information] [Program] Description: The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio
+[Information] [Program] Watchers: 3,868
+[Information] [Program] 9/10/2024 10:12:27 AM
+[Information] [Program] Name: roslyn
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/
+[Information] [Program] GitHub: https://github.com/dotnet/roslyn
+[Information] [Program] Description: The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
+[Information] [Program] Watchers: 18,896
+[Information] [Program] 9/10/2024 11:02:16 AM
+[Information] [Program] Name: corefxlab
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/corefxlab
+[Information] [Program] Description: This repo is for experimentation and exploring new ideas that may or may not make it into the main corefx repo.
+[Information] [Program] Watchers: 1,463
+[Information] [Program] 3/11/2021 1:46:57 PM
+[Information] [Program] Name: dotnet.github.io
+[Information] [Program] Homepage: https://dotnet.github.io/
+[Information] [Program] GitHub: https://github.com/dotnet/dotnet.github.io
+[Information] [Program] Description: The source for the dotnet.github.io site
+[Information] [Program] Watchers: 45
+[Information] [Program] 3/25/2019 11:13:16 PM
+[Information] [Program] Name: llilc
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/llilc
+[Information] [Program] Description: This repo contains LLILC, an LLVM based compiler for .NET Core. It includes a set of cross-platform .NET code generation tools that enables compilation of MSIL byte code to LLVM supported platforms.
+[Information] [Program] Watchers: 1,520
+[Information] [Program] 3/14/2022 6:37:01 PM
+[Information] [Program] Name: coreclr
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/core/
+[Information] [Program] GitHub: https://github.com/dotnet/coreclr
+[Information] [Program] Description: CoreCLR is the runtime for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.
+[Information] [Program] Watchers: 12,807
+[Information] [Program] 1/20/2023 4:33:11 PM
+[Information] [Program] Name: dotnet-ci
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/dotnet-ci
+[Information] [Program] Description: Repository containing scripting for the dotnet-ci Jenkins instance.
+[Information] [Program] Watchers: 84
+[Information] [Program] 5/14/2019 9:42:04 AM
+[Information] [Program] Name: ClangSharp
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/ClangSharp
+[Information] [Program] Description: Clang bindings for .NET written in C#
+[Information] [Program] Watchers: 907
+[Information] [Program] 7/30/2024 6:49:39 AM
+[Information] [Program] Name: LLVMSharp
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/LLVMSharp
+[Information] [Program] Description: LLVM bindings for .NET Standard written in C# using ClangSharp
+[Information] [Program] Watchers: 836
+[Information] [Program] 4/30/2024 6:50:24 AM
+[Information] [Program] Name: extensions
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/extensions
+[Information] [Program] Description: This repository contains a suite of libraries that provide facilities commonly needed when creating production-ready applications.
+[Information] [Program] Watchers: 2,577
+[Information] [Program] 9/10/2024 10:37:37 AM
+[Information] [Program] Name: msbuild
+[Information] [Program] Homepage: https://docs.microsoft.com/visualstudio/msbuild/msbuild
+[Information] [Program] GitHub: https://github.com/dotnet/msbuild
+[Information] [Program] Description: The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio.
+[Information] [Program] Watchers: 5,207
+[Information] [Program] 9/10/2024 6:25:52 AM
+[Information] [Program] Name: runtime-assets
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/runtime-assets
+[Information] [Program] Description: Assets that are required by the runtime repository, and referenced as nuget packages.
+[Information] [Program] Watchers: 30
+[Information] [Program] 9/9/2024 8:47:12 AM
+[Information] [Program] Name: port-to-core
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/port-to-core
+[Information] [Program] Description: This repo contains portability analysis reports.
+[Information] [Program] Watchers: 7
+[Information] [Program] 10/26/2018 12:05:42 AM
+[Information] [Program] Hello World!
+[Information] [Program] Logs contain timestamp and log level.
+[Information] [Program] Each log message is fit in a single line.
+[Information] [Program] Name: android-samples
+[Information] [Program] Homepage: https://dotnet.microsoft.com/apps/mobile
+[Information] [Program] GitHub: https://github.com/dotnet/android-samples
+[Information] [Program] Description: A collection of .NET for Android sample projects
+[Information] [Program] Watchers: 2,205
+[Information] [Program] 8/1/2024 4:09:54 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: cecil
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/cecil
+[Information] [Program] Description: Cecil is a library to inspect, modify and create .NET programs and libraries.
+[Information] [Program] Watchers: 62
+[Information] [Program] 9/10/2024 1:17:56 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: BenchmarkDotNet
+[Information] [Program] Homepage: https://benchmarkdotnet.org/
+[Information] [Program] GitHub: https://github.com/dotnet/BenchmarkDotNet
+[Information] [Program] Description: Powerful .NET library for benchmarking
+[Information] [Program] Watchers: 10,394
+[Information] [Program] 8/30/2024 10:40:39 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: reactive
+[Information] [Program] Homepage: http://reactivex.io/
+[Information] [Program] GitHub: https://github.com/dotnet/reactive
+[Information] [Program] Description: The Reactive Extensions for .NET
+[Information] [Program] Watchers: 6,664
+[Information] [Program] 8/28/2024 7:29:02 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: efcore
+[Information] [Program] Homepage: https://docs.microsoft.com/ef/
+[Information] [Program] GitHub: https://github.com/dotnet/efcore
+[Information] [Program] Description: EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.
+[Information] [Program] Watchers: 13,629
+[Information] [Program] 9/10/2024 10:59:48 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: java-interop
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/java-interop
+[Information] [Program] Description: Java.Interop provides open-source bindings of Java's Java Native Interface (JNI) for use with .NET managed languages such as C#
+[Information] [Program] Watchers: 195
+[Information] [Program] 9/5/2024 9:13:17 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: aspnetcore
+[Information] [Program] Homepage: https://asp.net/
+[Information] [Program] GitHub: https://github.com/dotnet/aspnetcore
+[Information] [Program] Description: ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.
+[Information] [Program] Watchers: 35,181
+[Information] [Program] 9/10/2024 11:36:38 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: Open-XML-SDK
+[Information] [Program] Homepage: https://www.nuget.org/packages/DocumentFormat.OpenXml/
+[Information] [Program] GitHub: https://github.com/dotnet/Open-XML-SDK
+[Information] [Program] Description: Open XML SDK by Microsoft
+[Information] [Program] Watchers: 3,987
+[Information] [Program] 9/3/2024 12:46:29 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: Scaffolding
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/Scaffolding
+[Information] [Program] Description: Code generators to speed up development.
+[Information] [Program] Watchers: 632
+[Information] [Program] 9/10/2024 6:59:07 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: Docker.DotNet
+[Information] [Program] Homepage: https://www.nuget.org/packages/Docker.DotNet/
+[Information] [Program] GitHub: https://github.com/dotnet/Docker.DotNet
+[Information] [Program] Description: :whale: .NET (C#) Client Library for Docker API
+[Information] [Program] Watchers: 2,231
+[Information] [Program] 8/19/2024 2:03:57 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: corefx
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/core/
+[Information] [Program] GitHub: https://github.com/dotnet/corefx
+[Information] [Program] Description: This repo is used for servicing PR's for .NET Core 2.1 and 3.1. Please visit us at https://github.com/dotnet/runtime 
+[Information] [Program] Watchers: 17,675
+[Information] [Program] 1/20/2023 4:07:42 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: buildtools
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/buildtools
+[Information] [Program] Description: Build tools that are necessary for building the .NET Core projects
+[Information] [Program] Watchers: 477
+[Information] [Program] 10/11/2021 10:42:09 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: core
+[Information] [Program] Homepage: https://dot.net/
+[Information] [Program] GitHub: https://github.com/dotnet/core
+[Information] [Program] Description: .NET news, announcements, release notes, and more!
+[Information] [Program] Watchers: 20,848
+[Information] [Program] 9/10/2024 11:46:03 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: orleans
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/orleans
+[Information] [Program] GitHub: https://github.com/dotnet/orleans
+[Information] [Program] Description: Cloud Native application framework for .NET
+[Information] [Program] Watchers: 10,032
+[Information] [Program] 8/21/2024 9:51:50 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: AspNetCore.Docs
+[Information] [Program] Homepage: https://docs.microsoft.com/aspnet/core
+[Information] [Program] GitHub: https://github.com/dotnet/AspNetCore.Docs
+[Information] [Program] Description: Documentation for ASP.NET Core
+[Information] [Program] Watchers: 12,535
+[Information] [Program] 9/10/2024 9:25:44 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: codeformatter
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/codeformatter
+[Information] [Program] Description: Tool that uses Roslyn to automatically rewrite the source to follow our coding styles
+[Information] [Program] Watchers: 1,236
+[Information] [Program] 7/11/2022 10:29:55 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: apireviews
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/apireviews
+[Information] [Program] Description: This repository contains the notes and API differences that we reviewed.
+[Information] [Program] Watchers: 190
+[Information] [Program] 9/6/2024 3:07:55 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: fsharp
+[Information] [Program] Homepage: https://dotnet.microsoft.com/languages/fsharp
+[Information] [Program] GitHub: https://github.com/dotnet/fsharp
+[Information] [Program] Description: The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio
+[Information] [Program] Watchers: 3,868
+[Information] [Program] 9/10/2024 12:20:19 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: roslyn
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/
+[Information] [Program] GitHub: https://github.com/dotnet/roslyn
+[Information] [Program] Description: The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.
+[Information] [Program] Watchers: 18,896
+[Information] [Program] 9/10/2024 11:30:26 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: corefxlab
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/corefxlab
+[Information] [Program] Description: This repo is for experimentation and exploring new ideas that may or may not make it into the main corefx repo.
+[Information] [Program] Watchers: 1,463
+[Information] [Program] 3/11/2021 1:46:57 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: dotnet.github.io
+[Information] [Program] Homepage: https://dotnet.github.io/
+[Information] [Program] GitHub: https://github.com/dotnet/dotnet.github.io
+[Information] [Program] Description: The source for the dotnet.github.io site
+[Information] [Program] Watchers: 45
+[Information] [Program] 3/25/2019 11:13:16 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: llilc
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/llilc
+[Information] [Program] Description: This repo contains LLILC, an LLVM based compiler for .NET Core. It includes a set of cross-platform .NET code generation tools that enables compilation of MSIL byte code to LLVM supported platforms.
+[Information] [Program] Watchers: 1,520
+[Information] [Program] 3/14/2022 6:37:01 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: coreclr
+[Information] [Program] Homepage: https://docs.microsoft.com/dotnet/core/
+[Information] [Program] GitHub: https://github.com/dotnet/coreclr
+[Information] [Program] Description: CoreCLR is the runtime for .NET Core. It includes the garbage collector, JIT compiler, primitive data types and low-level classes.
+[Information] [Program] Watchers: 12,807
+[Information] [Program] 1/20/2023 4:33:11 PM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: dotnet-ci
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/dotnet-ci
+[Information] [Program] Description: Repository containing scripting for the dotnet-ci Jenkins instance.
+[Information] [Program] Watchers: 84
+[Information] [Program] 5/14/2019 9:42:04 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: ClangSharp
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/ClangSharp
+[Information] [Program] Description: Clang bindings for .NET written in C#
+[Information] [Program] Watchers: 907
+[Information] [Program] 7/30/2024 6:49:39 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: LLVMSharp
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/LLVMSharp
+[Information] [Program] Description: LLVM bindings for .NET Standard written in C# using ClangSharp
+[Information] [Program] Watchers: 836
+[Information] [Program] 4/30/2024 6:50:24 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: extensions
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/extensions
+[Information] [Program] Description: This repository contains a suite of libraries that provide facilities commonly needed when creating production-ready applications.
+[Information] [Program] Watchers: 2,577
+[Information] [Program] 9/10/2024 11:56:32 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: msbuild
+[Information] [Program] Homepage: https://docs.microsoft.com/visualstudio/msbuild/msbuild
+[Information] [Program] GitHub: https://github.com/dotnet/msbuild
+[Information] [Program] Description: The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio.
+[Information] [Program] Watchers: 5,207
+[Information] [Program] 9/10/2024 6:25:52 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: runtime-assets
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/runtime-assets
+[Information] [Program] Description: Assets that are required by the runtime repository, and referenced as nuget packages.
+[Information] [Program] Watchers: 30
+[Information] [Program] 9/9/2024 8:47:12 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found
+[Information] [Program] Name: port-to-core
+[Information] [Program] Homepage: 
+[Information] [Program] GitHub: https://github.com/dotnet/port-to-core
+[Information] [Program] Description: This repo contains portability analysis reports.
+[Information] [Program] Watchers: 7
+[Information] [Program] 10/26/2018 12:05:42 AM
+[Information] [Program] The value of  Setting1 is May 5, 2014
+[Information] [Program] The value of  Setting1 is Not Found

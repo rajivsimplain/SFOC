@@ -1,0 +1,39 @@
+2024-09-13 12:44:17.8466|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-13 12:44:17.8905|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-13 12:44:17.9062|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-13 12:44:17.9062|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-13 12:44:18.5984|INFO|DexConsoleApp_3._5.net.Program|{
+  "id": 101,
+  "title": "First Data",
+  "body": "First Body",
+  "userId": 222
+}
+2024-09-13 12:44:18.5984|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-23 14:18:26.4121|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-23 14:18:26.4594|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-23 14:18:26.4594|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-23 14:18:26.4750|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-23 14:18:27.4943|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-23 14:19:49.3669|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-23 14:19:49.4140|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-23 14:19:49.4245|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-23 14:19:49.4245|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-23 14:19:50.4453|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-23 14:21:09.6928|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-23 14:21:09.7558|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-23 14:21:09.7558|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-23 14:21:09.7717|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-23 14:21:10.7773|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-23 14:51:44.7163|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-23 14:51:44.8476|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-23 14:51:44.8476|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-23 14:51:44.8736|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-23 14:51:45.8901|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.InvalidOperationException: Cannot read keys when either application does not have a console or when console input has been redirected from a file. Try Console.Read.
+   at System.Console.ReadKey(Boolean intercept)
+   at System.Console.ReadKey()
+   at DexConsoleApp_3._5.net.Program.Main(String[] args) in C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\Program.cs:line 114
+2024-09-23 14:53:18.9363|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-23 14:53:18.9975|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 0
+2024-09-23 14:53:19.0085|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-23 14:53:19.0085|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-23 14:53:41.6850|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 

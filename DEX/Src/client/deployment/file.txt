@@ -1,0 +1,9 @@
+2024-09-13 12:29:50.9706|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 2
+2024-09-13 12:29:51.0175|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-13 12:29:51.0175|INFO|DexConsoleApp_3._5.net.Program|arg1, 
+2024-09-13 12:29:51.0175|INFO|DexConsoleApp_3._5.net.Program|arg2, 
+2024-09-13 12:29:51.0175|INFO|DexConsoleApp_3._5.net.Program|Sample informational message
+2024-09-13 12:29:51.0175|WARN|DexConsoleApp_3._5.net.Program|Sample warning message
+2024-09-13 12:29:51.0175|ERROR|DexConsoleApp_3._5.net.Program|Sample error message
+2024-09-13 12:29:51.0175|FATAL|DexConsoleApp_3._5.net.Program|Sample fatal error message
+2024-09-13 12:29:51.0332|INFO|DexConsoleApp_3._5.net.Program|100 1C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT

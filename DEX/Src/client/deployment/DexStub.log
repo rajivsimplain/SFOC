@@ -1,0 +1,103 @@
+2024-09-24 11:13:29.6735|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 11:13:29.7049|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 11:13:29.7205|INFO|DexConsoleApp_3._5.net.Program|Arguments: 
+2024-09-24 11:13:29.7205|INFO|DexConsoleApp_3._5.net.Program|C:\ProgramData\StoreDex\0987654321\R240924111329.894, 
+2024-09-24 11:13:29.7205|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-24 11:13:29.7205|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:13:44.7702|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:13:44.8178|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:13:44.8178|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:13:46.9403|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:17:30.1125|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:17:30.1587|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:17:30.1587|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:17:31.5609|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:18:53.9171|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:18:53.9483|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:18:53.9640|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:18:55.2405|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:20:38.3952|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:20:38.4421|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:20:38.4496|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:20:39.8350|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:42:06.9511|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:42:06.9826|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:42:06.9988|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:42:08.4549|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:45:50.0766|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:45:50.1224|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:45:50.1224|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:45:51.1815|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 12:53:32.1606|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 12:53:32.2073|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 12:53:32.2073|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240924125331.894
+2024-09-24 12:53:32.2073|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-24 12:53:32.2230|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 12:53:33.4043|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-24 14:14:28.3996|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-24 14:14:28.4461|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-24 14:14:28.4612|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240924141427.894
+2024-09-24 14:14:28.4612|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-24 14:14:28.4612|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-24 14:14:29.6441|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-25 08:12:06.3117|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-25 08:12:06.3591|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-25 08:12:06.3591|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240925081205.894
+2024-09-25 08:12:06.3748|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-25 08:12:06.3748|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-25 08:12:08.4998|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-25 08:17:39.1550|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-25 08:17:39.2024|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 1
+2024-09-25 08:17:39.2188|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240925081738.894
+2024-09-25 08:17:39.2188|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-25 08:17:39.2188|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-25 08:17:40.5700|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-25 08:19:42.0752|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-25 08:19:42.1229|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 3
+2024-09-25 08:19:42.1229|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240925081941.894
+2024-09-25 08:19:42.1229|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT
+2024-09-25 08:19:42.1229|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-25 08:19:43.4442|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-25 08:32:52.9269|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-25 08:32:52.9581|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 3
+2024-09-25 08:32:52.9738|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240925083252.894
+2024-09-25 08:32:52.9738|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT\SHRDFLDR
+2024-09-25 08:32:52.9738|ERROR|DexConsoleApp_3._5.net.Program|An error occurred|System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DexConsoleApp_3._5.net.Program.Main(String[] args)
+2024-09-25 08:32:54.3749|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 
+2024-09-25 10:47:08.4177|INFO|DexConsoleApp_3._5.net.Program|Stub Initiated.. 
+2024-09-25 10:47:08.4645|INFO|DexConsoleApp_3._5.net.Program|Total Arguments: 3
+2024-09-25 10:47:08.4645|INFO|DexConsoleApp_3._5.net.Program|Param is : C:\ProgramData\StoreDex\0987654321\R240925104707.894
+2024-09-25 10:47:08.4645|INFO|DexConsoleApp_3._5.net.Program|File Received: 3 / CommId: 0987654321
+2024-09-25 10:47:08.4802|INFO|DexConsoleApp_3._5.net.Program|Ini File => Store Num: 100  Dock Num:  1  Dest Folder C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT\SHRDFLDR\
+2024-09-25 10:47:08.4802|INFO|DexConsoleApp_3._5.net.Program|C:\ProgramData\StoreDex\0987654321\R240925104707.894 was moved to C:\PROJECTS\FOODLAND\DEX\SRC\CLIENT\DEPLOYMENT\SHRDFLDR\.
+2024-09-25 10:47:08.4802|INFO|DexConsoleApp_3._5.net.Program|Stub Execution end.. 

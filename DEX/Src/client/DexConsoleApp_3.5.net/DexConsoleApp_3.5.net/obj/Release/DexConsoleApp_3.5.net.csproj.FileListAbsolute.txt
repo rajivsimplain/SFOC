@@ -1,0 +1,16 @@
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\App.config
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\NLog.config
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\DexConsoleApp_3.5.net.exe.config
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\DexConsoleApp_3.5.net.exe
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\DexConsoleApp_3.5.net.pdb
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\log4net.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\Newtonsoft.Json.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\NLog.dll
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\log4net.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\Newtonsoft.Json.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\bin\Release\NLog.xml
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Release\DexConsoleApp_3.5.net.csproj.AssemblyReference.cache
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Release\DexConsoleApp_3.5.net.csproj.CoreCompileInputs.cache
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Release\DexConso.000A088D.Up2Date
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Release\DexConsoleApp_3.5.net.exe
+C:\Projects\FoodLand\Dex\Src\client\DexConsoleApp_3.5.net\DexConsoleApp_3.5.net\obj\Release\DexConsoleApp_3.5.net.pdb
