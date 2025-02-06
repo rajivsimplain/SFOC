@@ -1,0 +1,21 @@
+USE [POS]
+GO
+
+/****** Object:  Table [dbo].[ETL_LOG]    Script Date: 2/5/2025 10:28:57 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ETL_LOG](
+	[LOGRUNID] [int] NULL,
+	[LOGIFID] [int] NULL,
+	[LOGTABLENAME] [varchar](100) NULL,
+	[LOGDATE] [date] NULL,
+	[LOGMESSAGE] [varchar](2000) NULL,
+	[LOGCREATEDATE] [date] NULL,
+	[LOGCREATEBY] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+

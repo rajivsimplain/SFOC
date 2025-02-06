@@ -1,0 +1,713 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/7/2024 8:39:41 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="POSDBSV01"
+  DTS:CreatorName="SFOC\pbhaskaran"
+  DTS:DTSID="{AF8CDAED-FFF1-4C5C-AD80-A3DBD1CB166F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5467.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="29"
+  DTS:VersionGUID="{872BFD17-4839-41E8-9EB1-C02B11E1877C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[POSDBSV01.POS]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+      DTS:ObjectName="POSDBSV01.POS">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=POSDBSV01;Initial Catalog=POS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{FB37ECBE-CAFF-4A59-B331-C16B925348E4}POSDBSV01.POS;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SRAIStage.DATA_STAGE]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{60D30B1E-4F38-4355-A829-0BFF738DDE14}"
+      DTS:ObjectName="SRAIStage.DATA_STAGE">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=SRAIStage;User ID=DATA_STAGE;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAu2aoSNiQp02wHMaL+oJo9QAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABML3gfELmixkHnKmYDOkszAAAAAASAAACgAAAAEAAAANCnOvdtqcDxk3IabTbNWVUYAAAA6KIoXOHgagPYeKqo7VKJxZV5dq141K0pFAAAAMUIwjCRJm3jLr0t8qDhlHxOiMC0</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{EA937D59-FDFB-48AE-B855-9C8510810C30}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="dmcnt">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{06AF4DFE-F957-4C93-B3D2-FB763AB1E537}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;select count(1) from  &quot;+ @[User::dmtab]  +&quot;  where runid=0&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="dmqry">
+      <DTS:VariableValue
+        DTS:DataType="8">select count(1) from  'S'  where runid=0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{DC9EA5E9-709A-4BCF-8419-0DF78E24B586}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="dmtab">
+      <DTS:VariableValue
+        DTS:DataType="8">'S'</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{18E39A3A-AECB-4E7E-9257-F6FD2936F8D2}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="dm_tables">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{77E85C32-A6FE-432C-A932-6585A67C1D85}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="gcnt">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{65610480-8AF9-473F-A614-855767B46C81}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;select count(1)  from  &quot;+ @[User::gtab]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="gqry">
+      <DTS:VariableValue
+        DTS:DataType="8">select count(1)  from  'G'</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D17E353A-5229-4A32-974C-3F712C5C867E}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;select count(1)  from  &quot;+ @[User::gtab] + &quot;  where langue='US'&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="gqry1">
+      <DTS:VariableValue
+        DTS:DataType="8">select count(1)  from  'G'  where langue='US'</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C267A4F7-5DEC-4306-BB6E-AE6F19EF972B}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="gtab">
+      <DTS:VariableValue
+        DTS:DataType="8">'G'</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9E77B2F5-49FF-4A42-8CF0-CBE7B1B338C4}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;Insert into GoldDMValidation_Report &#xA;SELECT getdate(),&quot;+ (DT_WSTR, 10) @[User::tid]&#xA;+&quot;,'&quot;+@[User::gtab]+&quot;','&quot;&#xA;+ @[User::dmtab]+&quot;',&quot;&#xA;+ (DT_WSTR, 10) @[User::gcnt] +&quot;,&quot;&#xA;+ (DT_WSTR, 10) @[User::dmcnt]+&quot;,'N'&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="insertqry">
+      <DTS:VariableValue
+        DTS:DataType="8">Insert into GoldDMValidation_Report 
+SELECT getdate(),0,''G'',''S'',0,0,'N'</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{4AC05450-16F4-47B5-9631-E8B968A9C323}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="tid">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{36F61365-B5BB-4A7F-ADD0-76E098737696}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;UPDATE GoldDMValidation_Report SET CountMatched='Y' where GoldRecCount=DMRecCount&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="UpdateFlag">
+      <DTS:VariableValue
+        DTS:DataType="8">UPDATE GoldDMValidation_Report SET CountMatched='Y' where GoldRecCount=DMRecCount</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{5C9DC984-2BAF-43B2-8E68-96134E2D2EE1}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+          SQLTask:SqlStatementSource="&#xA;SELECT Table_id,GOLD_table_name,DM_table_name &#xA;FROM ETL_TABLES &#xA;WHERE Initialize_Flag='Y'&#xA;AND CONVERT(DATE,GETDATE()) BETWEEN effective_date AND expiration_date"
+          SQLTask:ResultType="ResultSetType_Rowset" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::dm_tables" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task 1"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{88740eda-b80c-4600-a3f0-dc2fa716dc3f}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task 1"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE GoldDMValidation_Report" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Foreach Loop Container"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach Loop Container"
+      DTS:DTSID="{837B683A-6D03-4FD5-B544-C6110DB96A97}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Foreach Loop Container">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachADOEnumerator"
+        DTS:DTSID="{591F99AF-7BFA-4918-AE17-147AD6130C81}"
+        DTS:ObjectName="{591F99AF-7BFA-4918-AE17-147AD6130C81}">
+        <DTS:ObjectData>
+          <FEEADO
+            EnumType="EnumerateRowsInFirstTable"
+            VarName="User::dm_tables" />
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\DM Count"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{1065F92B-648D-4D68-9704-50FEBA4825D2}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="DM Count"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::dmqry"
+              SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="0"
+                SQLTask:DtsVariableName="User::dmcnt" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Execute SQL Task"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:Disabled="True"
+          DTS:DTSID="{BA855FF8-B7FC-4C44-8971-F19AC5EC121D}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Execute SQL Task"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+              SQLTask:SqlStatementSource="TRUNCATE TABLE GoldDMValidation_Report" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Gold Count"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{D97D591B-C1B6-4D0C-B0FD-22CD55C2FFDA}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Gold Count"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{60D30B1E-4F38-4355-A829-0BFF738DDE14}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::gqry"
+              SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="0"
+                SQLTask:DtsVariableName="User::gcnt" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Gold Count 1"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{c5f76cd9-0c25-4d05-8b8d-41c2db29cfb8}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Gold Count 1"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{60D30B1E-4F38-4355-A829-0BFF738DDE14}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::gqry1"
+              SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="0"
+                SQLTask:DtsVariableName="User::gcnt" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Insert to sqlserver"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{35D66CEC-C4FD-4888-893A-6FFE93D82842}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Insert to sqlserver"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::insertqry" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Update Flag"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{B26E54AF-29A0-48EE-8085-A207F0B5F3E8}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Update Flag"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{FB37ECBE-CAFF-4A59-B331-C16B925348E4}"
+              SQLTask:SqlStmtSourceType="Variable"
+              SQLTask:SqlStatementSource="User::UpdateFlag" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{823B63C3-DEF5-4024-9106-82DF31EACB24}"
+          DTS:From="Package\Foreach Loop Container\Gold Count"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Foreach Loop Container\DM Count" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 1]"
+          DTS:CreationName=""
+          DTS:DTSID="{7D29DCE3-E11B-4108-B81F-3A97FD0E193F}"
+          DTS:From="Package\Foreach Loop Container\DM Count"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 1"
+          DTS:To="Package\Foreach Loop Container\Insert to sqlserver" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 2]"
+          DTS:CreationName=""
+          DTS:DTSID="{28CA9C35-4396-4FF9-9827-E2FF1C244D10}"
+          DTS:From="Package\Foreach Loop Container\Insert to sqlserver"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 2"
+          DTS:To="Package\Foreach Loop Container\Update Flag" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 3]"
+          DTS:CreationName=""
+          DTS:DTSID="{90A4A3D8-63DA-4D4B-A465-0FC1E6B23B60}"
+          DTS:EvalOp="1"
+          DTS:Expression="@[User::gtab]!=&quot;TRA_STRUCOBJ&quot;"
+          DTS:From="Package\Foreach Loop Container\Execute SQL Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 3"
+          DTS:To="Package\Foreach Loop Container\Gold Count" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 4]"
+          DTS:CreationName=""
+          DTS:DTSID="{7B8BADA0-EC38-4059-B441-2415827B1DF4}"
+          DTS:EvalOp="1"
+          DTS:Expression="@[User::gtab]==&quot;TRA_STRUCOBJ&quot;"
+          DTS:From="Package\Foreach Loop Container\Execute SQL Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 4"
+          DTS:To="Package\Foreach Loop Container\Gold Count 1" />
+      </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{60E50D11-F1EE-49D9-9C7E-8289A28AB36D}"
+          DTS:ObjectName="{60E50D11-F1EE-49D9-9C7E-8289A28AB36D}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::tid" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{6CDE8B7A-F95B-4FE0-9E64-9BE95798FEA3}"
+          DTS:ObjectName="{6CDE8B7A-F95B-4FE0-9E64-9BE95798FEA3}"
+          DTS:ValueIndex="1"
+          DTS:VariableName="User::gtab" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{9057D881-643B-4F81-9D05-D30D7E786028}"
+          DTS:ObjectName="{9057D881-643B-4F81-9D05-D30D7E786028}"
+          DTS:ValueIndex="2"
+          DTS:VariableName="User::dmtab" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{654B5384-8823-4F4D-B6AF-2085BA0C1289}"
+      DTS:From="Package\Execute SQL Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Foreach Loop Container" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{BEE5F9EE-5028-4E8B-88CD-F6C27F4EC137}"
+      DTS:From="Package\Execute SQL Task 1"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Execute SQL Task" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="130,47"
+          Id="Package\Foreach Loop Container\Gold Count"
+          TopLeft="36,91" />
+        <NodeLayout
+          Size="128,42"
+          Id="Package\Foreach Loop Container\DM Count"
+          TopLeft="69,219" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          TopLeft="101,138">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12,81"
+              Start="0,0"
+              End="12,73.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44"
+                    Point2="0,48"
+                    Point3="4,48" />
+                  <mssgle:LineSegment
+                    End="8,48" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8,48"
+                    Point2="12,48"
+                    Point3="12,52" />
+                  <mssgle:LineSegment
+                    End="12,73.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Foreach Loop Container\Insert to sqlserver"
+          TopLeft="398,84" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 1]"
+          TopLeft="153,219">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="301.666666666667,-93"
+              Start="0,0"
+              End="301.666666666667,-85.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-42.6618428283568" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-42.6618428283568"
+                    Point2="0,-46.6618428283568"
+                    Point3="4,-46.6618428283568" />
+                  <mssgle:LineSegment
+                    End="297.666666666667,-46.6618428283568" />
+                  <mssgle:CubicBezierSegment
+                    Point1="297.666666666667,-46.6618428283568"
+                    Point2="301.666666666667,-46.6618428283568"
+                    Point3="301.666666666667,-50.6618428283568" />
+                  <mssgle:LineSegment
+                    End="301.666666666667,-85.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Foreach Loop Container\Update Flag"
+          TopLeft="430,224" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 2]"
+          TopLeft="503.416666666667,126">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,98"
+              Start="0,0"
+              End="0,90.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,90.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Foreach Loop Container\Gold Count 1"
+          TopLeft="222,98" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Foreach Loop Container\Execute SQL Task"
+          TopLeft="101,11" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 3]"
+          TopLeft="159,53">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-58,38"
+              Start="0,0"
+              End="-58,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.4125874125874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.4125874125874"
+                    Point2="0,15.4125874125874"
+                    Point3="-4,15.4125874125874" />
+                  <mssgle:LineSegment
+                    End="-54,15.4125874125874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-54,15.4125874125874"
+                    Point2="-58,15.4125874125874"
+                    Point3="-58,19.4125874125874" />
+                  <mssgle:LineSegment
+                    End="-58,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-37,20.4125874125874,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 4]"
+          TopLeft="213,53">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="81,45"
+              Start="0,0"
+              End="81,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.2517482517483" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.2517482517483"
+                    Point2="0,18.2517482517483"
+                    Point3="4,18.2517482517483" />
+                  <mssgle:LineSegment
+                    End="77,18.2517482517483" />
+                  <mssgle:CubicBezierSegment
+                    Point1="77,18.2517482517483"
+                    Point2="81,18.2517482517483"
+                    Point3="81,22.2517482517483" />
+                  <mssgle:LineSegment
+                    End="81,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="32.5,23.2517482517483,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="629,321"
+          Size="629,364"
+          Id="Package\Foreach Loop Container"
+          TopLeft="66,147" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Execute SQL Task"
+          TopLeft="406,60" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="491,102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-110.5,45"
+              Start="0,0"
+              End="-110.5,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="-4,22.5" />
+                  <mssgle:LineSegment
+                    End="-106.5,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-106.5,22.5"
+                    Point2="-110.5,22.5"
+                    Point3="-110.5,26.5" />
+                  <mssgle:LineSegment
+                    End="-110.5,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Execute SQL Task 1"
+          TopLeft="108,63" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="278,82.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="128,0"
+              Start="0,0"
+              End="120.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="120.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

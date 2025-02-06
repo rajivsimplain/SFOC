@@ -1,0 +1,92 @@
+USE [POS]
+GO
+
+/****** Object:  UserDefinedFunction [dbo].[GET_PRICEHISTORY]    Script Date: 2/5/2025 11:26:55 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+-- =============================================
+-- Author:		Priya Baskaran
+-- Create date: 07-01-2024
+-- Description:	get price details for the given store and date
+-- =============================================
+CREATE FUNCTION [dbo].[GET_PRICEHISTORY]
+(	
+	-- Add the parameters for the function here
+@P_site     INT=1,
+@P_Date		DATE=NULL
+)
+RETURNS TABLE 
+AS
+RETURN 
+(
+--set @P_Date = isnull(@P_Date,convert(date,getdate()));
+
+ SELECT @P_Date as EFFDT,storenum AS STORENUM,ITEM,ITEM_SV,UPC,CONVERT(DATE,EFFFROM) EFFFROM,CONVERT(DATE,EFFTHRU) EFFTHRU,PRCTYPE,CONVERT(INT,PRCMULTI) PRCMULTI,PRICE,EVENTCD
+ --PRCTYPE,COUNT(*) COUNT --INTO #TPR  --PRICE_V
+ FROM 
+(
+    SELECT distinct	 
+        aviprix AS price,
+        avorescint AS storenum,
+		ARCCODE AS UPC,
+        avicinv AS item_sv,
+		aviddeb as EFFFROM,
+		avidfin as EFFTHRU,
+		avimulti as prcmulti,
+		OPLCEXOPR AS EVENTCD,
+		--(SELECT AATVALN FROM ETL_ARTATTRI WHERE AATCINR=ARCCINR AND AATCCLA='PRODID' AND  CONVERT(DATE,@P_DATE) BETWEEN AATDDEB AND AATDFIN AND RUNID=0) AS PRODID  ,
+	    ARTCEXR AS ITEM,
+		PATATT PRCTYPE,
+		ROW_NUMBER() OVER(PARTITION BY ressite, avicinv ORDER BY avoprio,AVINTAR) AS rnk  
+
+    FROM 
+        etl_avetar e 
+        JOIN etl_avescope o ON aventar = avontar 
+        JOIN etl_aveprix i ON aventar = avintar 
+        JOIN etl_OPRATTRI A ON PATNOPR = AVENOPR 
+            AND PATCLA = 'PRICE_TP' 
+         -- AND PATATT = 'PRO'           
+        JOIN etl_OPRPLAN  L ON OPLNOPR = PATNOPR  
+		JOIN ETL_RESEAU U ON avorescint = respere and resresid = 'SF'    
+		JOIN ETL_ARTCOCA C ON ARCCINV=AVICINV AND ARCIETI=1 AND CONVERT(DATE,@P_DATE) BETWEEN ARCDDEB AND ARCDFIN
+		JOIN ETL_ARTRAC ON ARTCINR=ARCCINR
+			JOIN ETL_ARTUC Q ON ARASITE=O.AVORESCINT AND ARACINR=ARTCINR AND ARATFOU=1  --LATER ADD TO CHECK NOT DELETED ITEM
+		--JOIN ETL_ARTATTRI Z ON AATCINR=ARVCINR  
+		AND EXISTS (SELECT 1 FROM ETL_ARTATTRI SUB 
+			WHERE CAST(@P_DATE AS DATE) BETWEEN SUB.AATDDEB AND SUB.AATDFIN 
+		                 AND SUB.RUNID=0 AND SUB.AATCINR=ARTCINR AND SUB.AATCCLA='POSITEM' AND SUB.AATCATT='Y')	
+         AND NOT EXISTS (SELECT 1 FROM ETL_ARTATTRI SUB 
+			WHERE CAST(@P_DATE AS DATE) BETWEEN SUB.AATDDEB AND SUB.AATDFIN 
+		    AND SUB.AATCINR=artcinr AND SUB.AATCCLA='PRODTYP' AND SUB.AATCATT='DISC' and sub.runid=0)	
+		-- LEFT JOIN ETL_ARTATTRI AA ON AATCINR=ARCCINR AND AATCCLA='PRODID' AND  CONVERT(DATE,@P_DATE) BETWEEN AATDDEB AND AATDFIN AND AA.RUNID=0
+	   WHERE 
+           CONVERT(DATE,@P_DATE)  BETWEEN aveddeb AND avedfin
+        AND  CONVERT(DATE,@P_DATE)  BETWEEN avoddeb AND avodfin
+        AND  CONVERT(DATE,@P_DATE)  BETWEEN aviddeb AND avidfin 
+		AND  CONVERT(DATE,@P_DATE)  BETWEEN PATDDEB AND PATDFIN	
+		and  CONVERT(DATE,@P_DATE)  BETWEEN resddeb and resdfin
+		and  CONVERT(DATE,@P_DATE)  BETWEEN ARADDEB and ARADFIN
+		--and  CONVERT(DATE,@P_DATE)  BETWEEN resddeb and resdfin
+		
+
+		AND ressite=@P_site
+		--AND AVICINV=IIF(@P_Cinv=1 ,AVICINV,@P_CinV)
+		AND E.RUNID=0
+				AND O.RUNID=0
+				AND I.RUNID=0  
+				AND A.RUNID=0
+				AND L.RUNID=0 
+				AND U.RUNID=0
+				AND C.RUNID=0
+				--AND AA.RUNID=0
+
+				) AS T  WHERE RNK=1-- GROUP BY PRCTYPE -- ORDER BY PRCTYPE
+		
+)
+
+GO
+

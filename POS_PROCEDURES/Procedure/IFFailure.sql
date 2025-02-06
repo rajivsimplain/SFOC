@@ -1,0 +1,37 @@
+USE [POS]
+GO
+
+/****** Object:  StoredProcedure [dbo].[IFFailure]    Script Date: 2/5/2025 11:15:20 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[IFFailure]
+
+@P_ifid              INT,
+@P_STATUS           INT OUT ,
+@P_RUNID             INT ,
+@P_ERROR_MSG Varchar(100) 
+
+AS
+BEGIN
+declare @IFSTATUS_ERROR int;
+set @IFSTATUS_ERROR = 2;
+
+ /* UPDATE THE IFRUNSTATUS WITH STATUS ERROR */
+
+    UPDATE IFRUNSTATUS
+       SET IFRENDTIME    = CURRENT_TIMESTAMP,
+           IFRSTATUS     = @IFSTATUS_ERROR, -- ERRORED
+           IFRUPDATEDATE = CURRENT_TIMESTAMP,
+           IFRSTATUSDESC = @P_ERROR_MSG
+     WHERE IFRIFID =@P_IFID
+       AND IFRRUNID = @P_RUNID;
+
+	 SET @P_STATUS = 2;
+END
+
+GO
+

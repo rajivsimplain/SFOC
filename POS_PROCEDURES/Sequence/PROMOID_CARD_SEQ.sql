@@ -1,0 +1,17 @@
+USE [POS]
+GO
+
+USE [POS]
+GO
+
+/****** Object:  Sequence [dbo].[PROMOID_CARD_SEQ]    Script Date: 2/5/2025 11:32:38 PM ******/
+CREATE SEQUENCE [dbo].[PROMOID_CARD_SEQ] 
+ AS [bigint]
+ START WITH 10001
+ INCREMENT BY 1
+ MINVALUE 10001
+ MAXVALUE 69999
+ CYCLE 
+ CACHE 
+GO
+

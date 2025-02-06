@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "GoldDMValidaiton_Report", "GoldDMValidaiton_Report.dtproj", "{140978C7-811D-440A-96BA-6D7EFA543B75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140978C7-811D-440A-96BA-6D7EFA543B75}.Development|Default.ActiveCfg = Development
+		{140978C7-811D-440A-96BA-6D7EFA543B75}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54CA612C-55CD-4529-8595-7B3A7B81FDD4}
+	EndGlobalSection
+EndGlobal
